@@ -35,7 +35,7 @@ public class main {
         cargoCarriage1.carriageFilling(cargo2);
         cargoCarriage1.carriageFilling(cargo1);
 
-        LinkList<Carriage> train = new LinkList<>(12);
+        LinkList<Carriage> train = new LinkList<Carriage>(12);
         train.insertHead(passengerCarriage1);
         train.insertHead(locomotive);
         train.insert(1, cargoCarriage1);
